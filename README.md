@@ -8,7 +8,7 @@ and visualisations, e.g. using Grafana.
 
 ![Example for visualisation in Grafana](example_grafana.png)
 
-Tested with Pi-Star 4.1.0-RC8
+Tested with Pi-Star 4.1.3
 
 ## Usage
 
