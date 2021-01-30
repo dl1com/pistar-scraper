@@ -39,7 +39,7 @@ class LastHeardEntry(object):
 
         self.timestamp = self.string_to_timestamp(cols[0].get_text())
         self.mode = cols[1].get_text()
-        self.callsign = cols[2].get_text()
+        self.callsign = cols[2].get_text().split()[0]
 
         # Remove non-blankspace from string
         self.target = cols[3].get_text().replace(u'\xa0', u' ')
